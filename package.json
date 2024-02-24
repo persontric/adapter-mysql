@@ -1,0 +1,61 @@
+{
+	"name": "@persontric/adapter-mysql",
+	"version": "0.0.0",
+	"type": "module",
+	"description": "MySQL adapter for Persontric",
+	"keywords": [
+		"persontric",
+		"auth",
+		"mysql2",
+		"mysql",
+		"planetscale",
+		"authentication",
+		"adapter",
+		"sql"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/persontric/adapter-mysql"
+	},
+	"author": "Brian Takita",
+	"license": "Apache-2.0",
+	"types": "index.ts",
+	"exports": {
+		".": "./index.ts",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"*.md",
+		"*.js",
+		"*.json",
+		"*.ts",
+		"driver"
+	],
+	"scripts": {
+		"build": "shx rm -rf ./dist/* && tsc",
+		"test.mysql2": "tsx test.mysql2/mysql2.ts",
+		"test.planetscale": "tsx test.planetscale/planetscale.ts",
+		"auri.build": "pnpm build"
+	},
+	"devDependencies": {
+		"@persontric/adapter-test": "workspace:*",
+		"@planetscale/database": "^1.16.0",
+		"dotenv": "^16.4.5",
+		"mysql2": "^3.9.1",
+		"persontric": "workspace:*",
+		"tsx": "^4.7.1"
+	},
+	"peerDependencies": {
+		"mysql2": "^3.9.1",
+		"persontric": "^0.0.0",
+		"@planetscale/database": "^1.16.0"
+	},
+	"peerDependenciesMeta": {
+		"mysql2": {
+			"optional": true
+		},
+		"@planetscale/database": {
+			"optional": true
+		}
+	}
+}
