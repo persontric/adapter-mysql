@@ -39,16 +39,16 @@
 	},
 	"devDependencies": {
 		"@persontric/adapter-test": "workspace:*",
-		"@planetscale/database": "^1.16.0",
+		"@planetscale/database": "^1.17.0",
 		"dotenv": "^16.4.5",
 		"mysql2": "^3.9.7",
 		"persontric": "workspace:*",
-		"tsx": "^4.7.2"
+		"tsx": "^4.7.3"
 	},
 	"peerDependencies": {
 		"mysql2": "^3.9.7",
 		"persontric": "^0.0.0",
-		"@planetscale/database": "^1.16.0"
+		"@planetscale/database": "^1.17.0"
 	},
 	"peerDependenciesMeta": {
 		"mysql2": {
