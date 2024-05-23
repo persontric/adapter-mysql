@@ -43,7 +43,7 @@
 		"dotenv": "^16.4.5",
 		"mysql2": "^3.9.7",
 		"persontric": "workspace:*",
-		"tsx": "^4.10.5"
+		"tsx": "^4.11.0"
 	},
 	"peerDependencies": {
 		"mysql2": "^3.9.7",
