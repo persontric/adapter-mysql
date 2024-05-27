@@ -41,12 +41,12 @@
 		"@persontric/adapter-test": "workspace:*",
 		"@planetscale/database": "^1.18.0",
 		"dotenv": "^16.4.5",
-		"mysql2": "^3.9.7",
+		"mysql2": "^3.9.8",
 		"persontric": "workspace:*",
 		"tsx": "^4.11.0"
 	},
 	"peerDependencies": {
-		"mysql2": "^3.9.7",
+		"mysql2": "^3.9.8",
 		"persontric": "^0.0.0",
 		"@planetscale/database": "^1.18.0"
 	},
